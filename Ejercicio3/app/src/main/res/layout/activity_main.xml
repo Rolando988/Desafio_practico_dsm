@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:text="Calculadora de Sueldo"
+            android:textColor="#212121"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/txtViewTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Primer Empleado"
+            android:textColor="#212121"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtViewName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese su nombre y apellidos:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtViewTitle"
+            />
+        <EditText
+            android:id="@+id/txtName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/txtViewName"
+            />
+
+        <TextView
+            android:id="@+id/txtViewcargo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione su Cargo:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtName1"
+            />
+        <Spinner
+            android:id="@+id/cargo_spin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/txtViewSalary"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/txtViewhoras1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horas trabajadas durante el mes:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/cargo_spin"
+            />
+        <EditText
+            android:id="@+id/txthoras1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/txtViewYears"
+
+            android:inputType="number"
+            />
+
+
+
+
+
+        <TextView
+            android:id="@+id/txtViewTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Segundo Empleado"
+            android:textColor="#212121"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtViewName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese su nombre y apellidos:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtViewTitle"
+            />
+        <EditText
+            android:id="@+id/txtName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/txtViewName"
+            />
+
+        <TextView
+            android:id="@+id/txtViewcargo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione su Cargo:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtName2"
+            />
+        <Spinner
+            android:id="@+id/cargo_spin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/txtViewSalary"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/txtViewhoras2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horas trabajadas durante el mes:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/cargo_spin"
+            />
+        <EditText
+            android:id="@+id/txthoras2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/txtViewYears"
+
+            android:inputType="number"
+            />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/txtViewTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="Tercer Empleado"
+            android:textColor="#212121"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese su nombre y apellidos:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtViewTitle"
+            />
+        <EditText
+            android:id="@+id/txtName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/txtViewName"
+            />
+
+        <TextView
+            android:id="@+id/txtViewcargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccione su Cargo:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/txtName3"
+            />
+        <Spinner
+            android:id="@+id/cargo_spin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/txtViewSalary"
+
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/txtViewhoras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horas trabajadas durante el mes:"
+            android:textColor="#212121"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/cargo_spin"
+            />
+        <EditText
+            android:id="@+id/txthoras3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/txtViewYears"
+
+            android:inputType="number"
+            />
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginHorizontal="20dp"
+            android:text="Calcular"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>

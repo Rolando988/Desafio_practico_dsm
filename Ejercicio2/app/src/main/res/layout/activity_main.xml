@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPrimero"
+        android:text="Primer candidato"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:onClick="primero"
+        />
+    <Button
+        android:id="@+id/btnSegundo"
+        android:text="Segundo candidato"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:onClick="segundo"/>
+    <Button
+        android:id="@+id/btnTercero"
+        android:text="Tercer candidato"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:onClick="tercero"/>
+    <Button
+        android:id="@+id/btnCuarto"
+        android:text="Cuarto candidato"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:onClick="cuarto"/>
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtSolucion"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        />
+
+
+
+
+</LinearLayout>
